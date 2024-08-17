@@ -1,0 +1,8 @@
+const corsOptions = {
+        origin:["http://localhost:5173" , "http://localhost:4173" , process.env.CLIENT_URL],
+        methods:["PUT","GET","POST","DELETE"],
+        credentials:true 
+}
+
+const TOKEN = "token"
+export {corsOptions , TOKEN}
